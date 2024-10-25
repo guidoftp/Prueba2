@@ -1,5 +1,5 @@
+from django.core.validators import MinValueValidator
 from django.db import models
-
 # Create your models here.
 
 class Juego(models.Model):
@@ -7,4 +7,4 @@ class Juego(models.Model):
     descripcion = models.CharField(max_length=150)
     fecha_lanz = models.DateField()
     desarrolladora = models.CharField(max_length=50)
-    precio = models.FloatField()
+    precio = models.FloatField(validators=[MinValueValidator(0)])

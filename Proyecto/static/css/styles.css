@@ -1,42 +1,42 @@
 body {
-    background-color: #f8f9fa; /* Color de fondo suave */
-    font-family: Arial, sans-serif; /* Fuente general */
-    margin: 0; /* Eliminar márgenes por defecto */
-    padding: 20px; /* Espaciado interno */
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 20px; 
 }
 
 .alert {
-    background-color: #17a2b8; /* Color de fondo de la alerta */
-    color: white; /* Color del texto */
-    padding: 20px; /* Espaciado interno de la alerta */
-    border-radius: 15px; /* Bordes redondeados */
-    margin-bottom: 20px; /* Espacio inferior */
-    font-size: 2em; /* Tamaño de fuente más grande */
+    background-color: #17a2b8; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 15px; 
+    margin-bottom: 20px; 
+    font-size: 2em;
 }
 
 .btn {
-    display: inline-block; /* Para aplicar margenes */
-    background-color: #17a2b8; /* Color de fondo del botón */
-    color: white; /* Color del texto */
-    padding: 15px 30px; /* Tamaño del botón */
-    font-size: 1.2em; /* Tamaño de fuente más grande */
-    text-decoration: none; /* Sin subrayado */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: background-color 0.3s; /* Transición suave */
+    display: inline-block;
+    background-color: #17a2b8; 
+    color: white; 
+    padding: 15px 30px;
+    font-size: 1.2em; 
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
 }
 
 .btn:hover {
-    background-color: #138496; /* Color del botón al pasar el mouse */
+    background-color: #138496; 
 }
 /* styles.css */
 body {
-    background-color: #f8f9fa; /* Fondo suave */
-    font-family: Arial, sans-serif; /* Fuente general */
+    background-color: #f8f9fa; 
+    font-family: Arial, sans-serif; 
     padding: 20px;
 }
 
 .alert {
-    background-color: #17a2b8; /* Color de fondo de la alerta */
+    background-color: #17a2b8; 
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -46,11 +46,11 @@ body {
 
 form {
     max-width: 600px;
-    margin: 0 auto; /* Centra el formulario */
+    margin: 0 auto; 
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
 }
 
 input[type="submit"] {
@@ -65,7 +65,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #138496; /* Efecto hover */
+    background-color: #138496; 
 }
 
 .btn {
@@ -78,18 +78,17 @@ input[type="submit"]:hover {
 }
 
 .btn:hover {
-    background-color: #138496; /* Efecto hover */
+    background-color: #138496; 
 }
 
-/* styles.css */
 body {
-    background-color: #f8f9fa; /* Fondo suave */
-    font-family: Arial, sans-serif; /* Fuente general */
+    background-color: #f8f9fa; 
+    font-family: Arial, sans-serif; 
     padding: 20px;
 }
 
 .alert {
-    background-color: #17a2b8; /* Color de fondo de la alerta */
+    background-color: #17a2b8; 
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -115,7 +114,7 @@ th {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f2f2f2; /* Fila alternada */
+    background-color: #f2f2f2; 
 }
 
 .btn {
