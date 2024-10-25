@@ -6,28 +6,48 @@
     <title>Bienvenido a Mundo Juegos</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="container mt-5">
     <header class="text-center mb-4">
-        <div class="alert">Bienvenido a !MUNDO JUEGOS&#x1F3AE;¡</div>
-        <h1 class="title">Explora Nuestra Colección de Juegos</h1>
+        <div class="alert alert-primary" role="alert">Bienvenido a !MUNDO JUEGOS&#x1F3AE;¡</div>
+        <img src="{% static 'css/img/start.png' %}" alt="Logo Mundo Juegos" class="img-fluid mb-3" style="max-width: 500px;">
+        <h1 class="display-4 font-weight-bold">Explora Nuestra Colección de Juegos</h1>
     </header>
 
     <section class="description text-center mb-4">
-        <p>Sumérgete en un mundo lleno de diversión y entretenimiento. Descubre juegos para todas las edades y gustos.</p>
+        <p class="lead">Sumérgete en un mundo lleno de diversión y entretenimiento. Descubre juegos para todas las edades y gustos.</p>
     </section>
 
     <div class="text-center mb-4">
-        <a href="/juegos" class="btn">JUEGOS</a>
+        <a href="/juegos" class="btn btn-primary btn-lg">JUEGOS</a>
     </div>
+    
+    <p>
+        Los juegos representan un universo de actividades diseñadas para entretener, desafiar y motivar a los jugadores. 
+        Desde los videojuegos y juegos de mesa hasta deportes electrónicos y rompecabezas, este mundo ofrece opciones para todos los gustos. 
+        Además de proporcionar diversión, los juegos son una herramienta poderosa para desarrollar habilidades como la estrategia, 
+        la coordinación, el trabajo en equipo y la creatividad. Con la era digital, los juegos se han transformado en una industria global 
+        que conecta a personas de todas las edades, facilitando interacciones, aprendizaje y competencia en entornos tanto virtuales como físicos.
+    </p>
+    
 
     <footer class="text-center mt-5">
-        <p>
-            Síguenos en nuestras redes sociales:
-            <a href="www.instagram.com/mundojuegos.cl?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn">Instagram</a> |
-            <a href="www.facebook.com/p/Mundo-juegos-100063638557287/" class="btn">Facebook</a> |
-            <a href="www.tiktok.com/@mundojuegos3" class="btn">TikTok</a>
-        </p>
+        <p class="mb-2 font-weight-light">Síguenos en nuestras redes sociales:</p>
+        <div class="d-flex justify-content-center">
+            <a href="https://www.instagram.com/mundojuegos.cl?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn btn-outline-primary mx-2">
+                <span>&#x1F4F7;</span> Instagram
+            </a>
+            <a href="https://www.facebook.com/p/Mundo-juegos-100063638557287/" class="btn btn-outline-primary mx-2">
+                <span>&#x1F4F1;</span> Facebook
+            </a>
+            <a href="https://www.tiktok.com/@mundojuegos3" class="btn btn-outline-primary mx-2">
+                <span>&#x1F3AC;</span> TikTok
+            </a>
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
