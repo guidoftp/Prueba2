@@ -8,3 +8,6 @@ class Juego(models.Model):
     fecha_lanz = models.DateField()
     desarrolladora = models.CharField(max_length=100)
     precio = models.FloatField(validators=[MinValueValidator(0)])
+
+def __str__(self):
+    return self.nombre

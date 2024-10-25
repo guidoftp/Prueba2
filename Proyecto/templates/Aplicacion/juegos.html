@@ -33,7 +33,7 @@
                 <td>{{ juego.precio }}</td>
                 <td>
                     <a href="/actualizarJuego/{{ juego.id }}" class="btn btn-success btn-sm"><i class="bi bi-pencil"></i> Editar</a>
-                    <a href="/eliminarJuego/{{ juego.id }}" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Eliminar</a>
+                    <a href="/eliminarJuego/{{ juego.id }}" class="btn btn-danger btn-sm" onClick="return confirm('¿Seguro que quieres eliminar este juego?')"><i class="bi bi-trash"></i> Eliminar</a>
                 </td>
             </tr>
             {% endfor %}
