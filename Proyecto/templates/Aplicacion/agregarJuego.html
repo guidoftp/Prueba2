@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Juegos</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body class="container mt-5">
+    <div class="alert alert-info display-1 text-center">LISTADO DE JUEGOS</div>
+
+    <form method="post" class="text-center">
+        {{form.as_p}}
+        {% csrf_token %}
+        <input type="submit" value="AGREGAR JUEGO" class="btn btn-info">
+    </form>
+    
+    <div class="text-center mt-5">
+        <a href="../juegos" class="btn btn-info">JUEGOS</a>
+    </div>
+</body>
+</html>
